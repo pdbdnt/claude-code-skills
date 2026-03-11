@@ -1,0 +1,7 @@
+{
+  "name": "denni-skills",
+  "description": "Custom Claude Code skills for commit workflows and development patterns",
+  "author": {
+    "name": "denni"
+  }
+}
