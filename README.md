@@ -1,16 +1,14 @@
-# Claude Code Skills Plugin
+# Claude Code Skills Plugin (Deprecated)
 
-Custom skills for Claude Code.
+This repo has been consolidated into [claude-plugins](https://github.com/pdbdnt/claude-plugins).
 
-## Available Skills
+## Migration
 
-### git-cp
-Git commit and push workflow that aggregates all uncommitted changes, reads plan files from the project root `plans/` directory to build a detailed commit message, then commits and pushes.
-
-**Usage:** `/git-cp`
-
-## Installation
+Use the unified plugin marketplace instead:
 
 ```
-/install-plugin pdbdnt/claude-code-skills
+/plugin marketplace add pdbdnt/claude-plugins
+/plugin install git-cp
 ```
+
+All skills from this repo are now available in `pdbdnt/claude-plugins`.
